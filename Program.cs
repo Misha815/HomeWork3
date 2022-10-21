@@ -16,15 +16,15 @@ return revers;
     Console.Write("Введите число: ");
 int InpunNumer = int.Parse(Console.ReadLine());
 
-if (InpunNumer > 99999) 
+if (InpunNumer > 99999 || InpunNumer < 10000) 
     Console.WriteLine("Данное число недопустимо");
 
 else if (Palindrome(InpunNumer) == InpunNumer) 
     Console.WriteLine("да");
 
 else if (Palindrome(InpunNumer) != InpunNumer)
-    Console.WriteLine("Нет"); */
-
+    Console.WriteLine("Нет");
+ */
 //Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве. A (3,6,8); B (2,1,-7), -> 15.84
 
 /* double Cord3D(int xa,int ya,int za, int xb, int yb, int zb)
@@ -54,7 +54,7 @@ Console.WriteLine(Math.Round(resultCord,2)); */
 
 //Задача 23 Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 
-void Quadro(int num){
+/* void Quadro(int num){
 
     for(int i = 0; i < num; i++)
     {
@@ -67,4 +67,4 @@ Console.WriteLine("Введите число:");
 
 int result = Convert.ToInt32(Console.ReadLine());
 
-Quadro(result);
+Quadro(result); */
